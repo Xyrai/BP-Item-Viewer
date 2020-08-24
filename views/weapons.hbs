@@ -1,0 +1,19 @@
+<table id="table" data-toggle="table" data-sort-class="table-active" data-sortable="true" class="table=responsive">
+  <thead>
+    <tr>
+      <th data-sortable="true">Name</th>
+      <th data-sortable="true">Class</th>
+      <th data-sortable="true">Equip Level</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each weapons_list}}
+    <tr>
+      <td><img src={{icon}}>  <a href="/weapons/{{id}}">{{name}}</a></td>
+      <td>{{class}}</td>
+      <td>{{equip_level}}</td>
+    </tr>
+    {{/each}}
+
+  </tbody>
+</table>

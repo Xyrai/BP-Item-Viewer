@@ -1,0 +1,25 @@
+<table id="table" data-toggle="table" data-sort-class="table-active" data-sortable="true" class="table=responsive">
+  <thead>
+    <tr>
+      <th data-sortable="true">Name</th>
+      <th data-sortable="true">Class</th>
+      <th data-sortable="true">Required Level</th>
+      <th data-sortable="true">Default Skill?</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each weapons_list}}
+    <tr>
+      {{#if render_icon}}
+      <td><img src={{icon}}>  <a href="/skills/{{id}}">{{name}}</a></td>
+      {{else}}
+      <td><a href="/skills/{{id}}">{{name}}</a></td>
+      {{/if}}
+      <td>{{class}}</td>
+      <td>{{condition_skill_level}}</td>
+      <td>{{is_default_skill}}</td>
+    </tr>
+    {{/each}}
+
+  </tbody>
+</table>

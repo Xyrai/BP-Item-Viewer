@@ -1,0 +1,21 @@
+{
+    "files": {
+        "ui" : {
+            "base_folder": "data_ui",
+            "weapons": "Icon/Weapon",
+            "skills": "Icon/PlayerSkill",
+            "passive_skills" : "Icon/PlayerSkillPassive"
+        },
+        "base_locale": "texts_locale_us_EN.json",
+        "text_file_ja_JP" : "texts_locale_ja_JP.json",
+        "text_file_us_EN" : "texts_locale_us_EN.json",
+        "level_data": "leveldata.json",
+        "weapons": "weapons.json",
+        "skill_data": "skill_data.json",
+        "class_ids": "class_ids.json"
+    },
+    "locale_categories" : {
+        "weapon_name" : "weapon_text",
+        "skills": "master_skill_data_text"
+    }
+}

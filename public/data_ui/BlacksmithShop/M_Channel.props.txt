@@ -1,0 +1,18 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/UI/BlacksmithShop/UI_FxNoise.UI_FxNoise'
+    ReferencedTextures[1] = Texture2D'/Game/UI/BlacksmithShop/UI_FxTextureCloud.UI_FxTextureCloud'
+    ReferencedTextures[2] = Texture2D'/Game/UI/Common/UI_CmnGC.UI_CmnGC'
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

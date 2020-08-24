@@ -1,0 +1,14 @@
+{
+  "name": "Item_Database",
+  "description": "Organize items quick for easier translation",
+  "version": "0.1.0",
+  "main": "main.js",
+  "author": "iaresosorry",
+  "license": "MIT",
+  "homepage": "https://blueprotocoldb.com",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4"
+  }
+}

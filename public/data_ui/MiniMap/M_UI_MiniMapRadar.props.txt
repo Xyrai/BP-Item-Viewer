@@ -1,0 +1,17 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/UI/MiniMap/UI_MiniMapMask1.UI_MiniMapMask1'
+    ReferencedTextures[1] = Texture2D'/Game/UI/UI_White.UI_White'
+}
+BlendMode = BLEND_AlphaComposite (7)
+OpacityMaskClipValue = 0.1
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

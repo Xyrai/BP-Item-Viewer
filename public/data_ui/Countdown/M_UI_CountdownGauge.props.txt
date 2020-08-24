@@ -1,0 +1,17 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/UI/Countdown/UI_CountdownGauge2.UI_CountdownGauge2'
+    ReferencedTextures[1] = Texture2D'/Game/UI/Countdown/UI_CountdownGauge3.UI_CountdownGauge3'
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

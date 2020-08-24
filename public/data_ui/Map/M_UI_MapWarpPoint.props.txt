@@ -1,0 +1,17 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/UI/Map/MapImage/Cty001/UI_MapCty001.UI_MapCty001'
+    ReferencedTextures[1] = Texture2D'/Game/UI/Map/UI_MapWarpPointMask1.UI_MapWarpPointMask1'
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
